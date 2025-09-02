@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ku"  lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>I'm just girl:)</title>
+  </head>
+ 
+    <header>
+      <h1> بەرێوبەری ئەرکەکانت</h1>
+      <p>ئەرکەکەت رێکبخە</p>
+    </header>
+    <main class="main">
+      <div class="card">
+        <div class="card-header">
+          <h2>ئەرکی تازە زیاد بکە</h2>
+        </div>
+        <div class="card-content"></div>
+        <form id="taskform" class="task">
+          <div class="form-group">
+            <label for="tasktitle"> سەردێر </label>
+            <input
+              type="text"
+              id="tasktitle"
+              placeholder="سەردێرئەرکەکەت بیر نەچێط"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="tasktitle"> ناوەرۆک </label>
+            <textarea
+              id="taskdescription"
+              type="text"
+              id="tasktitle"
+              placeholder="ناوەرۆکی ئەرکەکە بنوسە کیژی جوان"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="taskdate"> ڕۆژ ژمێر </label>
+            <input
+              type="date"
+              id="taskdate"
+              placeholder="enter task date "
+              required
+            />
+          </div>
+          <button type="submit" id="submitbtn" class="btn btn-primary">
+            زیاد کردن
+          </button>
+          <button
+            type="button"
+            id="cancelBtn"
+            class="btn btn-secondary"
+            style="display: block"
+          >
+            هەلوەشاندنەوە 
+          </button>
+
+
+        </form>
+
+
+      </div>
+   
+<div class="card">
+<div class="card-header">
+<h2>ئەرکەکانت</h2>
+</div>
+<div class="card-content">
+    <div id="tasksList" class="tasks-list">
+        <div class="no-tasks">
+            "هیچ داتایەک داخل نەکراوە"
+            </div>
+            </div></div></div> </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

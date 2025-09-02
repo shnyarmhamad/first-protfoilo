@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fff0f5;
+  color: #d14d8b;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header h1 {
+  font-style: italic;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 25px;
+  background: linear-gradient(to right, #ff9bb3, #ff6b9d);
+
+  color: white;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(255, 105, 157, 0.3);
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(255, 105, 157, 0.2);
+
+  overflow: hidden;
+
+  flex: 1;
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  /* bo kall krdnaway nusin bakart henawa gezha*/
+}
+.card-header {
+  background-color: #ff6b9d;
+  color: white;
+
+  padding: 15px 20px;
+
+  font-size: 1.3rem;
+}
+
+.card-content {
+  padding: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f95e91;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+
+  border: 2px solid #de4783;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff9fa;
+}
+
+.btn-secondary {
+  background-color: #eabbc4;
+  color: #d14d8b;
+}
+.btn-primary {
+  background-color: #ff6b9d;
+  color: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ecd8dd;
+
+  outline: none;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+.btn-primary:hover {
+  background-color: #ff4785;
+  transform: translateY(-2px);
+}
+
+.btn-secondary:hover {
+  background-color: #ff9bb3;
+  transform: translateY(-2px);
+}
+.btn {
+  padding: 12px 20px;
+  border: none;
+
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-style: italic;
+  cursor: pointer;
+
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.no-tasks {
+  text-align: center;
+
+  color: #ff9bb3;
+
+  font-style: italic;
+  padding: 30px;
+  font-size: 1.7rem;
+}
+
+.tasks-list {
+  min-height: 200px;
+}
